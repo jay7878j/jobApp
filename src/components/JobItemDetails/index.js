@@ -29,6 +29,7 @@ class JobItemDetails extends Component {
 
   // Job Details Data
   jobDetailsData = async () => {
+    this.setState({apiStatus: apiStatusConstants.inProgress})
     const jwtToken = Cookies.get('jwt_token')
     const {match} = this.props
     const {params} = match

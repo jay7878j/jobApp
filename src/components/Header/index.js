@@ -20,7 +20,7 @@ const Header = props => {
   const getSmNavbarContainer = () => (
     <div className="sm-navbar-container">
       <Link to="/">
-        <img className="navbar-logo" src={websiteLogo} alt="website-logo" />
+        <img className="navbar-logo" src={websiteLogo} alt="website logo" />
       </Link>
       <ul className="nav-links-icon-container">
         <Link to="/">
@@ -44,7 +44,7 @@ const Header = props => {
   const getMdNavbarContainer = () => (
     <div className="md-navbar-container">
       <Link to="/">
-        <img className="navbar-logo" src={websiteLogo} alt="website-logo" />
+        <img className="navbar-logo" src={websiteLogo} alt="website logo" />
       </Link>
       <ul className="nav-link-items-container">
         <Link to="/">
